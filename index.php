@@ -1,6 +1,5 @@
 <?php include "includes/head.php"; ?>
 <?php include "includes/header.php"; ?>
-<?PHP include "includes/database.php"; ?>
 
 <article id="main" class="py-3">
     <div class="container">
@@ -8,7 +7,7 @@
             <section class="conectar mb-3">
                 <p class="h5">Conexões Oracle</p>
             </section>
-            <form action="menu/ConsultaFuncionario.php" method="post">
+            <form action="includes/database.php" method="post">
                 <fieldset>
                     <div class="shadow p-3 mb-5 bg-white rounded">
                         <div class="form-row">
@@ -18,7 +17,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="form-control-label" for="formGroupExampleInput">Pass</label>
-                                <input type="text" class="form-control" name="txtPass">
+                                <input type="password" class="form-control" name="txtPass">
                             </div>
                         </div>
                         <div class="form-row">

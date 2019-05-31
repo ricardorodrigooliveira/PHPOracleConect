@@ -13,6 +13,6 @@
         $erro = oci_error();
         trigger_error(htmlentities($erro['Erro ao conectar a base de dados '.$sid], ENT_QUOTES), E_USER_ERROR);
     }else{
-        echo "Conexão realizada com sucesso!";
+        include "../menu/ConsultaFuncionario.php";
     }
 ?>
