@@ -1,0 +1,11 @@
+.cursor {
+    cursor: pointer;
+}
+
+.secondary_color {
+ color: red;
+}
+
+.line-small {
+    line-height: 1;
+}

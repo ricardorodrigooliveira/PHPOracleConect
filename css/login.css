@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    display: grid;
+}
+.login { 
+    margin: auto;
+}
+.container {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+    margin: 0px;
+}
+
+.hamburger {
+    margin-left: 15px;
+}
+
+nav.navbar.navbar-light.bg-white {
+}
