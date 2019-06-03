@@ -5,9 +5,9 @@
     <div class="container">
         <div class="login">
             <section class="conectar mb-3">
-                <p class="h5">Conexões Oracle</p>
+                <p class="h5">WIS - Logistica</p>
             </section>
-            <form action="includes/database.php" method="post">
+            <form action="validaAcesso.php" method="post">
                 <fieldset>
                     <div class="shadow p-3 mb-5 bg-white rounded">
                         <div class="form-row">
@@ -20,7 +20,7 @@
                                 <input type="password" class="form-control" name="txtPass">
                             </div>
                         </div>
-                        <div class="form-row">
+                        <!--<div class="form-row">
                             <div class="form-group col-md-6">
                                 <label class="form-control-label" for="formGroupExampleInput">Host</label>
                                 <input type="text" class="form-control" name="txtHost">
@@ -29,9 +29,9 @@
                                 <label class="form-control-label" for="formGroupExampleInput">Service</label>
                                 <input type="text" class="form-control" name="txtService">
                             </div>
-                        </div>
+                        </div>-->
                     </div>
-                <input type="submit" class="col-xl-4 btn btn-block btn-success mx-auto" name="Conectar" value="Entrar">
+                <input type="submit" class="col-xl-4 btn btn-block btn-success mx-auto" name="login" value="Entrar">
                 </fieldset>
             </form>
         </div>
@@ -39,3 +39,4 @@
 </article>
 
 <?php include "includes/footer.php"; ?>
+<?php include "includes/referenceJS.php"; ?>
